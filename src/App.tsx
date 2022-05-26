@@ -1,8 +1,11 @@
-import React from 'react'
+import CustomHooks from "./modules/CustomHook"
 
 const App = () => {
+
   return (
-    <div>App</div>
+    <div>
+     <CustomHooks />
+    </div>
   )
 }
 
