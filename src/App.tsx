@@ -1,10 +1,12 @@
 import CustomHooks from "./modules/CustomHook"
+import LearnUseReducer from "./modules/LearnUseReducer"
 
 const App = () => {
 
   return (
     <div>
-     <CustomHooks />
+     {/* <CustomHooks /> */}
+     <LearnUseReducer />
     </div>
   )
 }
